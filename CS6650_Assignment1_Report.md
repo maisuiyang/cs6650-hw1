@@ -155,7 +155,8 @@ The system demonstrates production-ready characteristics:
 - Monitoring capabilities through comprehensive metrics collection
 - Cloud deployment compatibility
 
-**GitHub Repository:** [https://github.com/maisuiyang/cs6650-hw1](https://github.com/maisuiyang/cs6650-hw1)  
+---
+
 **Running Instructions:** See README.md for detailed setup and execution steps
 
 ---

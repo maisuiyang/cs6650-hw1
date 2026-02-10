@@ -124,24 +124,7 @@ All 20 rooms achieved balanced throughput:
 
 ---
 
-## 4. AWS EC2 Deployment Evidence
-
-### EC2 Instance Configuration
-- **Instance Type:** t2.micro (1 vCPU, 1GB RAM)
-- **Region:** us-west-2
-- **AMI:** Amazon Linux 2
-- **Public IP:** 54.189.65.140
-- **Security Groups:** Ports 22 (SSH), 8081 (WebSocket)
-
-### Deployment Process
-1. Launched EC2 instance with appropriate security groups
-2. Installed Java 17 (Amazon Corretto)
-3. Uploaded and deployed chat-server JAR file
-4. Successfully demonstrated cloud deployment capability
-
----
-
-## 5. Performance Analysis
+## 4. Performance Analysis
 
 ### Throughput Over Time
 The system demonstrates excellent scalability with consistent performance:
@@ -156,22 +139,14 @@ The system demonstrates excellent scalability with consistent performance:
 
 ---
 
-## 6. Conclusions
+## 5. Conclusions
 
 The implementation successfully demonstrates:
 
-### Technical Achievements
-- **High Throughput:** 47,501 msg/s sustained performance
-- **Excellent Reliability:** 100% success rate across all tests
-- **Scalable Architecture:** Efficient connection pooling and thread management
-- **Robust Error Handling:** Retry mechanisms with exponential backoff
-- **Cloud Deployment:** Successful AWS EC2 deployment capability
-
-### Performance Insights
-- Connection reuse significantly improves throughput beyond theoretical predictions
-- Balanced load distribution across all 20 rooms demonstrates fair scheduling
-- System handles high concurrency (1,280 connections) without resource exhaustion
-- Perfect message distribution shows reliable random generation
+### Key Achievements
+- **High Performance:** Sustained 47,501 msg/s throughput with 100% reliability
+- **Scalable Design:** Efficient connection pooling and thread management
+- **Production Ready:** Robust error handling and cloud deployment capability
 
 ### Production Readiness
 The system demonstrates production-ready characteristics:
@@ -179,41 +154,13 @@ The system demonstrates production-ready characteristics:
 - Resource efficiency through connection pooling
 - Monitoring capabilities through comprehensive metrics collection
 - Cloud deployment compatibility
-
----
-
-## 7. Conclusions
-
-The implementation successfully demonstrates:
-
-### Technical Achievements
-- **High Throughput:** 47,501 msg/s sustained performance
-- **Excellent Reliability:** 100% success rate across all tests
-- **Scalable Architecture:** Efficient connection pooling and thread management
-- **Robust Error Handling:** Retry mechanisms with exponential backoff
-- **Cloud Deployment:** Successful AWS EC2 deployment capability
-
-### Performance Insights
-- Connection reuse significantly improves throughput beyond theoretical predictions
-- Balanced load distribution across all 20 rooms demonstrates fair scheduling
-- System handles high concurrency (1,280 connections) without resource exhaustion
-- Perfect message distribution shows reliable random generation
-
-### Production Readiness
-The system demonstrates production-ready characteristics:
-- Fault tolerance through retry mechanisms
-- Resource efficiency through connection pooling
-- Monitoring capabilities through comprehensive metrics collection
-- Cloud deployment compatibility
-
----
 
 **GitHub Repository:** [https://github.com/maisuiyang/cs6650-hw1](https://github.com/maisuiyang/cs6650-hw1)  
 **Running Instructions:** See README.md for detailed setup and execution steps
 
 ---
 
-## 8. Screenshots and Evidence
+## 6. Screenshots and Evidence
 
 ### AWS EC2 Deployment Evidence
 
@@ -227,7 +174,7 @@ The system demonstrates production-ready characteristics:
 
 ### Performance Testing Results
 
-**Figure 5: Warmup Phase Results (EC2)** *(see in PDF)*
+**Figure 5: Warmup Phase Results(EC2)** *(see in PDF)*
 
 **Figure 6: Main Phase Results (EC2)** *(see in PDF)*
 

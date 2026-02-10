@@ -15,7 +15,7 @@ HW1/
 ├── client-part1/         # Basic load testing client
 ├── client-part2/         # Client with performance analysis
 ├── results/              # Test results and analysis
-└── README.md            # Detailed documentation
+└── README.md             # Detailed documentation
 ```
 
 ---
